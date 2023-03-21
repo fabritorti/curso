@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.614);
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.navContainer{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.navContainer > .navList{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.navList > li {
+    list-style: none;
+}
+
+.navList > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navList > li:hover{
+    background-color: rgba(255, 0, 0, 0.278);
+} 
+
+
+.containerMain{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: url('http://placekitten.com/200/200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100px; */
+}
+
+h1{
+    text-align: center;
+}
+
+.containerProducts{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+
+}
+
+.card{
+    width:25%;
+    /* height: 400px; */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.216);
+}
+
+.card > img{
+    width: 200px;
+}
+
+.card > h3, .card > p, .card > strong{
+    margin: 20px;
+    font-size:15px
+}
+
+.card > button {
+    padding: 12px;
+    border: none;
+}
+
+
+.card > button:hover{
+    background-color: rgba(144, 238, 144, 0.697) ;
+}
+
+.card:hover{
+    background-color: rgba(144, 238, 144, 0.496);
+}
+

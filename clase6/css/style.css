@@ -1,0 +1,105 @@
+*{
+    /* color: lightblue*/
+    /* background-color: lightblue; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    color: lightcoral;
+}
+
+div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.parrafo{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+#tituloh3{
+    color: blue;
+}
+
+/* div, ul {
+    width: 300px;
+    background-color: lightgreen;
+} */
+
+/* [name]{
+    height: 50px;
+    background-color: aqua;
+} */
+
+[name=nombre]{
+    height: 50px;
+    background-color: aqua;
+}
+
+ul > li:first-child{
+    color: yellow;
+}
+
+ul > li:hover{
+    color: orange;
+}
+
+
+a:visited{
+    color: red;
+}
+
+h1::before{
+    content: 'Curso de desarrollo web ';
+}
+
+#caja1 {
+    display: inline-block;
+    border: 1px solid red;
+    width: 500px;
+    height: 150px;
+    /* padding: 50px; */
+    padding-left: 50px;
+    padding-top: 70px;
+    /* margin: 60px; */
+    /* margin: 20px 40px 3px 15px */
+    margin:  20px 15px;
+    box-sizing: border-box;
+}
+
+ img{
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+    /* bottom: 600px; 
+     right:1px ;  */
+} 
+
+ #positionRelative{
+    border: 1px solid red;
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+}
+
+
+
+  
+ #parrafoPosition{
+    position: relative;
+    
+    z-index: 1;
+ }
+
+  img{
+    position: absolute;
+     right: 0;
+    bottom: 0; }
