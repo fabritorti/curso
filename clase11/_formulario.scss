@@ -1,0 +1,39 @@
+@import 'variables';
+
+
+@mixin form-container($ancho: 500px){
+    width: $ancho;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+   
+}
+
+
+form{
+   @include form-container($ancho: 50%);
+   input{
+    padding: 8px;
+    border: none;
+    border-top: 1px solid $color-secundario;
+    background: none;
+    color: $color-texto;
+    outline: none
+   };
+   button{
+    padding: 8px;
+    border: 1px solid $color-secundario;
+    background:none;
+    box-shadow:  5px 5px #2223239a;
+    color: $color-texto;
+    &:hover{
+        background-color: $color-secundario;
+    }
+   }
+   a{
+    text-decoration: none;
+    color: $color-secundario;
+   }
+}
