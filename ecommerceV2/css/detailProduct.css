@@ -1,0 +1,64 @@
+:root{
+    --color-principal: hsl(26, 100%, 55%);
+    --color-secundario: hsl(25, 100%, 94%)
+}
+
+
+
+.containerDataProduct{
+    height: 30%;
+    align-items: center;
+    margin: 60px 0;
+}
+.containerDataProduct > h4{
+    color: var(--color-principal);
+    margin: 10px 0;
+}
+.containerDataProduct > h2{
+    font-size: 3rem;
+    margin: 10px 0;
+
+}
+.containerDataProduct > p{
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+
+
+.containerPrice{
+    margin: 30px 0;
+}
+
+.containerPrice > div > strong {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.containerPrice > div > span {
+    background-color: var(--color-secundario);
+    font-size: 16px;
+    color: var(--color-principal);
+ 
+}
+
+.containerPrice > div + span {
+text-decoration: line-through;
+}
+
+.containerPrice > div {
+    display: flex;
+    align-items: center;    
+}
+
+.containerBtn{
+    background-color: rgba(211, 211, 211, 0.251);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerBtn + button{
+    background-color: var(--color-principal);
+    color: #fff;
+    padding: 15px;
+}
