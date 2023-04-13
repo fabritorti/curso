@@ -38,9 +38,9 @@ registerForm.addEventListener('submit', (evento) => {
     if ((username !== '') && (email !== '') && (password !== '')) {
         let user = new User(username, email, password)
         users.push(user)
-        localStorage.setItem('users', JSON.stringify( users))
+        localStorage.setItem('users', JSON.stringify(users))
         postUser(JSON.stringify(user))
-        // window.location = '../index.html'
+        window.location = '../pages/loginForm.html.html'
     }else{
         alert('Los datos no son correctos')
     }    
